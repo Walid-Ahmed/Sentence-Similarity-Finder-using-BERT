@@ -21,14 +21,14 @@ The script operates in several key steps:
 - `getEmbeddingsAsDictionary(sentences)`: Function that takes a list of sentences and returns a dictionary mapping each sentence to its embedding.
 - `compare(result)`: Function that takes the result of `getEmbeddingsAsDictionary` and computes the cosine similarity between all pairs of sentences, returning a sorted DataFrame with the results.
 
-## Usage
 
+## Usage
 To use this script, ensure you have a text file with sentences you wish to compare. The file should contain one sentence per line. Then, follow these steps:
 
-1. Prepare the environment by installing the required packages: `numpy`, `pandas`, and any specific library needed for calculating embeddings and cosine similarity.
-2. Place your sentences text file in a known directory.
-3. Ensure you have defined or have access to the `loadSentencesFromFile` and `getEmbeddingsAsDictionary` functions, as they are essential for the script's operation.
-4. Run the script. The top similar sentence pairs will be printed to the console.
+Prepare the environment by installing the required packages: numpy, pandas, and any specific library needed for calculating embeddings and cosine similarity.
+Place your sentences text file in a known directory.
+
+To run the script, simply use python run.py from your command line or terminal, assuming run.py is your script containing the described code.
 
 ## Example Output
 
