@@ -6,6 +6,9 @@
 
 This script calculates the cosine similarity between pairs of sentences read from a text file, leveraging embeddings to represent the sentences numerically. It uses these embeddings to compute the similarity and sorts the pairs by their similarity score in descending order. The result is a Pandas DataFrame showcasing the top pairs with the highest similarity scores.
 
+## Model
+The model used is all-MiniLM-L6-v2 from sentence transformers
+
 ## How It Works
 
 The script operates in several key steps:
