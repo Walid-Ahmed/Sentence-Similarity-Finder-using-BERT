@@ -18,6 +18,19 @@ The script operates in several key steps:
 3. **Comparing Sentences**: The script iterates through pairs of sentences, calculating the cosine similarity between their embeddings. These similarities are stored along with the sentence pairs in a list of dictionaries.
 4. **Sorting and Displaying Results**: The list of dictionaries is converted into a Pandas DataFrame for easy manipulation and analysis. The DataFrame is sorted by similarity in descending order to prioritize the most similar sentence pairs. Finally, the script prints the top results, providing insights into which sentences are most similar to each other.
 
+## Mean pooling
+
+The embeddings are implicitly created from the model using mean pooling.
+
+In the application of sentence similarity, mean pooling serves to condense the information from token-level embeddings into a single vector that represents the entire sentence. This process unfolds in three main steps:
+
+1. **Sentence Embedding Generation**: Individual tokens (words or subwords) within sentences are transformed into embeddings using a model. This results in a matrix where each row corresponds to a token's embedding.
+
+2. **Mean Pooling**: The matrix of token embeddings for each sentence is averaged across all tokens, leading to a single vector that encapsulates the sentence's overall semantic information. This step effectively distills the essence of the sentence into a compact form.
+
+
+Overall, mean pooling is a critical step in transforming detailed token-level data into actionable, sentence-level embeddings that can be compared for similarity, enabling a wide range of applications in natural language processing, from information retrieval to semantic analysis.
+
 ## Key Components
 
 - `loadSentencesFromFile()`: Function to load sentences from a text file. Each line in the file is considered a separate sentence.
