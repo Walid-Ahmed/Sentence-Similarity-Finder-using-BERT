@@ -1,8 +1,6 @@
-# Sentence_simillarity
-Sentence_simillarity
+# Sentence Similarity
 
 
-# README for Sentence Similarity Script
 
 ## Overview
 
