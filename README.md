@@ -19,6 +19,12 @@ To run the script, simply use python run.py from your command line or terminal, 
 python run.py
 ```
 
+## Example Output
+
+The output will be a Pandas DataFrame printed to the console, showing the top pairs of sentences with their similarity scores, sorted in descending order.
+
+![Figure 1](figs/res_1.png "Results")
+
 ## Model
 The model used is all-MiniLM-L6-v2 from sentence transformers
 ![Figure 1](figs/model_1.png "Model")
@@ -53,13 +59,6 @@ Overall, mean pooling is a critical step in transforming detailed token-level da
 - `compare(result)`: Function that takes the result of `getEmbeddingsAsDictionary` and computes the cosine similarity between all pairs of sentences, returning a sorted DataFrame with the results.
 
 
-
-## Example Output
-
-The output will be a Pandas DataFrame printed to the console, showing the top pairs of sentences with their similarity scores, sorted in descending order.
-
-res_1.png
-![Figure 1](figs/res_1.png "Results")
 
 ## Requirements
 
