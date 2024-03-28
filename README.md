@@ -30,6 +30,10 @@ Place your sentences text file in a known directory.
 
 To run the script, simply use python run.py from your command line or terminal, assuming run.py is your script containing the described code.
 
+```sh
+python run.py
+```
+
 ## Example Output
 
 The output will be a Pandas DataFrame printed to the console, showing the top pairs of sentences with their similarity scores, sorted in descending order.
