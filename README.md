@@ -43,7 +43,7 @@ The script operates in several key steps:
 
 The embeddings are implicitly created from the model using mean pooling.
 
-In the application of sentence similarity, mean pooling serves to condense the information from token-level embeddings into a single vector that represents the entire sentence. This process unfolds in three main steps:
+In the application of sentence similarity, mean pooling serves to condense the information from token-level embeddings into a single vector that represents the entire sentence. This process unfolds in two main steps:
 
 1. **Sentence Embedding Generation**: Individual tokens (words or subwords) within sentences are transformed into embeddings using a model. This results in a matrix where each row corresponds to a token's embedding.
 
