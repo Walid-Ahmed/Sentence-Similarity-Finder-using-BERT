@@ -6,6 +6,19 @@
 
 This script calculates the cosine similarity between pairs of sentences read from a text file, leveraging embeddings to represent the sentences numerically. It uses these embeddings to compute the similarity and sorts the pairs by their similarity score in descending order. The result is a Pandas DataFrame showcasing the top pairs with the highest similarity scores.
 
+
+## Usage
+To use this script, ensure you have a text file with sentences you wish to compare. The file should contain one sentence per line and named "data.txt". Then, follow these steps:
+
+Prepare the environment by installing the required packages: numpy, pandas, and any specific library needed for calculating embeddings and cosine similarity.
+Place your sentences text file in a known directory.
+
+To run the script, simply use python run.py from your command line or terminal, assuming run.py is your script containing the described code.
+
+```sh
+python run.py
+```
+
 ## Model
 The model used is all-MiniLM-L6-v2 from sentence transformers
 ![Figure 1](figs/model_1.png "Model")
@@ -40,17 +53,6 @@ Overall, mean pooling is a critical step in transforming detailed token-level da
 - `compare(result)`: Function that takes the result of `getEmbeddingsAsDictionary` and computes the cosine similarity between all pairs of sentences, returning a sorted DataFrame with the results.
 
 
-## Usage
-To use this script, ensure you have a text file with sentences you wish to compare. The file should contain one sentence per line. Then, follow these steps:
-
-Prepare the environment by installing the required packages: numpy, pandas, and any specific library needed for calculating embeddings and cosine similarity.
-Place your sentences text file in a known directory.
-
-To run the script, simply use python run.py from your command line or terminal, assuming run.py is your script containing the described code.
-
-```sh
-python run.py
-```
 
 ## Example Output
 
