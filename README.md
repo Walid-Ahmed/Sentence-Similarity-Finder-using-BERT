@@ -8,6 +8,8 @@ This script calculates the cosine similarity between pairs of sentences read fro
 
 ## Model
 The model used is all-MiniLM-L6-v2 from sentence transformers
+![Figure 1](figs/model_1.png "Figure 1: An example figure.")
+
 
 ## How It Works
 
