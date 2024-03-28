@@ -34,7 +34,11 @@ def compare(result):
 
   return df    
 
-  sentences=loadSentencesFromFile()
-  result=getEmbeddingsAsDictionary(sentences)
-  df=compare(result)
-  print(df.head())
+sentences=loadSentencesFromFile()
+print("[INFO] Sentences loaded")
+print(sentences)
+result=getEmbeddingsAsDictionary(sentences)
+print("[INFO] Embeddings calculated")
+df=compare(result)
+print("[INFO] Comparison done")
+print(df.head())
