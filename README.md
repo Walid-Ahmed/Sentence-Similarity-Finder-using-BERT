@@ -8,7 +8,7 @@ This script calculates the cosine similarity between pairs of sentences read fro
 
 ## Model
 The model used is all-MiniLM-L6-v2 from sentence transformers
-![Figure 1](figs/model_1.png "Figure 1: An example figure.")
+![Figure 1](figs/model_1.png "Model")
 
 
 ## How It Works
@@ -55,6 +55,9 @@ python run.py
 ## Example Output
 
 The output will be a Pandas DataFrame printed to the console, showing the top pairs of sentences with their similarity scores, sorted in descending order.
+
+res_1.png
+![Figure 1](figs/res_1.png "Results")
 
 ## Requirements
 
