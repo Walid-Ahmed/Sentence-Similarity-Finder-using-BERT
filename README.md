@@ -13,7 +13,7 @@ To use this script, ensure you have a text file with sentences you wish to compa
 Prepare the environment by installing the required packages: numpy, pandas, and any specific library needed for calculating embeddings and cosine similarity.
 Place your sentences text file in a known directory.
 
-To run the script, simply use python run.py from your command line or terminal, assuming run.py is your script containing the described code.
+To run the script, simply use python run.py from your command line or terminal.
 
 ```sh
 python run.py
